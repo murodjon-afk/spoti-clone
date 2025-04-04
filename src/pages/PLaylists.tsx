@@ -38,7 +38,7 @@ const Playlists: React.FC = () => {
   }, [token]);
 
   if (loading) return <p className="text-white">Загрузка плейлистов...</p>;
-  if (error) return <p className="text-red-500">Ошибка: {error}</p>;
+  if (error) return <p className="text-red-500 pl-[20px]">Ошибка: {error}</p>;
 
   return (
    <>
